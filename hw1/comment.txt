@@ -1,0 +1,5 @@
+There many library already have functions for transfer color image to gray image such as 
+"cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)" in "cv2" library
+but the coefficients for transforming may be difference
+for "cv2",  it use I = 0.299 R + 0.587 G + 0.114 B
+unlike the coefficients I = 0.333 R + 0.333 G + 0.333 B we use for this homework
